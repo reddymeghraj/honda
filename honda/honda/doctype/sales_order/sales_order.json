@@ -1,0 +1,389 @@
+{
+ "allow_copy": 0, 
+ "allow_import": 0, 
+ "allow_rename": 0, 
+ "autoname": "naming_series:", 
+ "creation": "2015-08-06 16:02:09.402604", 
+ "custom": 0, 
+ "docstatus": 0, 
+ "doctype": "DocType", 
+ "document_type": "Transaction", 
+ "fields": [
+  {
+   "fieldname": "naming_series", 
+   "fieldtype": "Select", 
+   "label": "Series", 
+   "options": "SO-", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 1, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "column_break_1", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "date", 
+   "fieldtype": "Date", 
+   "label": "Date", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "customer_details", 
+   "fieldtype": "Section Break", 
+   "label": "Customer Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "customer_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Customer Name", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 1, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "fieldname": "mobile_no", 
+   "fieldtype": "Data", 
+   "label": "Mobile No", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "contact_no", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Contact No", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 1, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "fieldname": "column_break_3", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "email_id", 
+   "fieldtype": "Data", 
+   "label": "Email Id", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 1
+  }, 
+  {
+   "fieldname": "address", 
+   "fieldtype": "Small Text", 
+   "label": "Address", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "payment_details", 
+   "fieldtype": "Section Break", 
+   "label": "Payment Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "mode_of_payment", 
+   "fieldtype": "Select", 
+   "label": "Mode Of Payment", 
+   "options": "\nCash\nBank", 
+   "permlevel": 0, 
+   "precision": "", 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "cheque_no", 
+   "fieldtype": "Data", 
+   "label": "Cheque No", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "column_break_12", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "bank_name", 
+   "fieldtype": "Data", 
+   "label": "Bank Name", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "account_no", 
+   "fieldtype": "Data", 
+   "label": "Account No", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "id_proof", 
+   "fieldtype": "Section Break", 
+   "label": "ID Proof", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "pan_card", 
+   "fieldtype": "Check", 
+   "label": "PAN Card", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 1
+  }, 
+  {
+   "fieldname": "voting_card", 
+   "fieldtype": "Check", 
+   "label": "Voting Card", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 1
+  }, 
+  {
+   "fieldname": "adhar_card", 
+   "fieldtype": "Check", 
+   "label": "Adhar Card", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 1
+  }, 
+  {
+   "fieldname": "driving_license", 
+   "fieldtype": "Check", 
+   "label": "Driving License", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 1
+  }, 
+  {
+   "fieldname": "column_break_13", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "img", 
+   "fieldtype": "Attach", 
+   "label": "Select Image", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "image", 
+   "fieldtype": "Image", 
+   "label": "Image", 
+   "options": "img", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "section_break_5", 
+   "fieldtype": "Section Break", 
+   "label": "Item Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "item", 
+   "fieldtype": "Table", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Item", 
+   "no_copy": 0, 
+   "options": "Sales Order Item", 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "fieldname": "section_break_24", 
+   "fieldtype": "Section Break", 
+   "label": "Down Payment Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "finance_company_name", 
+   "fieldtype": "Data", 
+   "label": "Finance Company Name", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "column_break_26", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "downpayment_amount", 
+   "fieldtype": "Currency", 
+   "label": "DownPayment Amount", 
+   "permlevel": 0, 
+   "precision": "2"
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "section_break", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Tax and Discount Deails", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "fieldname": "tax_amount", 
+   "fieldtype": "Currency", 
+   "label": "Tax Amount", 
+   "permlevel": 0, 
+   "precision": "2"
+  }, 
+  {
+   "fieldname": "discount_amount", 
+   "fieldtype": "Currency", 
+   "label": "Discount Amount", 
+   "permlevel": 0, 
+   "precision": "2"
+  }, 
+  {
+   "fieldname": "column_break_8", 
+   "fieldtype": "Column Break", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "allow_on_submit": 0, 
+   "fieldname": "total_amount", 
+   "fieldtype": "Currency", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
+   "label": "Total Amount", 
+   "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "2", 
+   "print_hide": 0, 
+   "read_only": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
+  }, 
+  {
+   "fieldname": "amount_in_words", 
+   "fieldtype": "Read Only", 
+   "label": "Amount In Words", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "amended_from", 
+   "fieldtype": "Link", 
+   "label": "Amended From", 
+   "no_copy": 1, 
+   "options": "Sales Order", 
+   "permlevel": 0, 
+   "print_hide": 1, 
+   "read_only": 1
+  }
+ ], 
+ "hide_heading": 0, 
+ "hide_toolbar": 0, 
+ "in_create": 0, 
+ "in_dialog": 0, 
+ "is_submittable": 1, 
+ "issingle": 0, 
+ "istable": 0, 
+ "modified": "2015-08-08 15:14:12.366916", 
+ "modified_by": "Administrator", 
+ "module": "Honda", 
+ "name": "Sales Order", 
+ "name_case": "", 
+ "owner": "Administrator", 
+ "permissions": [
+  {
+   "amend": 0, 
+   "apply_user_permissions": 0, 
+   "cancel": 1, 
+   "create": 1, 
+   "delete": 1, 
+   "email": 1, 
+   "export": 0, 
+   "import": 0, 
+   "permlevel": 0, 
+   "print": 1, 
+   "read": 1, 
+   "report": 1, 
+   "role": "Administrator", 
+   "set_user_permissions": 0, 
+   "share": 0, 
+   "submit": 1, 
+   "write": 1
+  }
+ ], 
+ "read_only": 0, 
+ "read_only_onload": 0, 
+ "search_fields": "customer_name", 
+ "sort_field": "modified", 
+ "sort_order": "DESC", 
+ "title_field": "customer_name"
+}

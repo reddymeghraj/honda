@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include honda *.css
+recursive-include honda *.csv
+recursive-include honda *.html
+recursive-include honda *.ico
+recursive-include honda *.js
+recursive-include honda *.json
+recursive-include honda *.md
+recursive-include honda *.png
+recursive-include honda *.py
+recursive-include honda *.svg
+recursive-include honda *.txt
+recursive-exclude honda *.pyc
