@@ -19,6 +19,11 @@ def get_data():
 				},
 				{
 					"type": "doctype",
+					"name": "Item Stock",
+					"description": _("Current Stock."),
+				},
+				{
+					"type": "doctype",
 					"name": "Vehicle Details",
 					"description": _("Vehicle Database."),
 				},

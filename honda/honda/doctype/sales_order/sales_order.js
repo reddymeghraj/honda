@@ -91,6 +91,9 @@ cur_frm.cscript.mode_of_payment=function(doc,cdt,cdn)
 		cur_frm.toggle_enable('cheque_no');
 		cur_frm.toggle_enable('account_no');
 		cur_frm.toggle_enable('bank_name');
+		cur_frm.set_value('cheque_no','');
+		cur_frm.set_value('bank_name','');
+		cur_frm.set_value('account_no','');
 	}
 	else
 	{
